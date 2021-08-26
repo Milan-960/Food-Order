@@ -15,21 +15,21 @@ const DUMMY_MEALS = [
     name: "Vada pav",
     description:
       "Vegetarian fast food dish originating in the state of Maharashtra.",
-    price: 10,
+    price: 15,
   },
   {
     id: "m3",
     name: "Manchurian",
     description:
       "Manchurian is a class of Indian Chinese dishes prepared by coarse chopping and deep-frying a main ingredient such as chicken, cauliflower, shrimp, fish, mutton or paneer cheese, and then frying in a sauce with the addition of soy sauce",
-    price: 25,
+    price: 40,
   },
   {
     id: "m4",
     name: "Paneer Tikka Masala",
     description:
       "Paneer tikka masala is an Indian dish of marinated paneer cheese served in a spice sauce",
-    price: 20,
+    price: 50,
   },
 ];
 
