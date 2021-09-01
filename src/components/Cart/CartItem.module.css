@@ -13,7 +13,7 @@
 }
 
 .summary {
-  width: 10rem;
+  width: 7rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -47,7 +47,7 @@
   font: inherit;
   font-weight: bold;
   font-size: 1.25rem;
-  color: #8a2b06;
+  color: #317b92;
   border: 1px solid #8a2b06;
   width: 3rem;
   text-align: center;
