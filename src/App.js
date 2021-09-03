@@ -1,5 +1,6 @@
 import { useState } from "react";
 
+import Menu from "./components/Layout/Menu/Menu";
 import Header from "./components/Layout/Header";
 import Meals from "./components/Meals/Meals";
 import Cart from "./components/Cart/Cart";
@@ -20,6 +21,7 @@ function App() {
     <CartProvider>
       {cartIsShown && <Cart onClose={hideCartHandler} />}
       <Header onShowCart={showCartHandler} />
+      <Menu />
       <main>
         <Meals />
       </main>
